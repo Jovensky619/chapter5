@@ -50,6 +50,7 @@ nav ul {
 }
 
 nav li {
+     
     font-size: 1.5em;
     padding: 4%;
     display:inline-block;
@@ -72,7 +73,7 @@ main {
 
 /* Style rule for the corner*/
 
-#corner{
+.corner{
     border-radius: 12px;
 }
 
