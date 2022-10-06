@@ -1,7 +1,7 @@
 /* 
 Style sheet created by: 
-Student's Name 
-Today's Date 
+Student's Name: Jovensky Saint-Hilaire 
+Today's Date: 10/5/22
 */
 body {
     background-color: #dde3fd;
@@ -22,12 +22,33 @@ body {
 }
 
 /* sticky */
+.sticky{
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
 
+}
 
 /* relative */
-
+.relative{
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
 
 /* fixed */
+.fixed{
+    position: fixed;
+    top: 10px;
+    right: 40px;
+
+
+}
 
 
 /* absolute */
+.absolute{
+    position: absolute;
+    bottom:0;
+    right: 40px;
+}
