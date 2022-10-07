@@ -21,6 +21,11 @@ img {
     display: block;
 }
 /*Style rules for the mobile viewport begin */ 
+/*Style rules that hides the tablet-desktop */ 
+
+tablet-desktop{visibility: hidden;
+    max-height: 0;
+    }
 
 /* Style rules for header content */
 header h1 {
@@ -35,11 +40,13 @@ header h1 {
 nav {
     background-color: #ebf7e3;
     border-bottom: 1px solid #375f1b;
+    
 }
 
 nav ul {
     text-align: center;
     list-style:none;
+    
 }
 
 nav li {
@@ -47,12 +54,17 @@ nav li {
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
     padding: 3%;
+    display: inline-block;
+    
+
 }
 
 nav li a {
     display: inline-block;
     color: #1b3409;
     text-decoration: none;
+    
+
 }
 
 /* Style rules for main content */
@@ -60,10 +72,36 @@ main {
     padding: 2%;
     background-color: #ebf7e3;
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 main p {
     font-size: 1.25em;
+    
+}
+
+.btn{
+    background-color: #375f1b;
+    padding: 2%;
+    margin-top:2% ;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn a {
+    color: #ebf7e3;
+    font-size: 1.25em;
+    display:block;
+    text-decoration: none;
+
+}
+
+.corner{
+    border-radius: 12px;
 }
 
 /* Style rules for footer content */
