@@ -1,7 +1,7 @@
 /*
-    Student Name
-	File Name: 
-	Current Date: 
+    Student Name: Jovensky Saint-Hilaire
+	File Name: analyze
+	Current Date: 10/6/22
 */
 
 /* CSS reset */
@@ -20,6 +20,7 @@ img {
     max-width: 100%;
     display: block;
 }
+/*Style rules for the mobile viewport begin */ 
 
 /* Style rules for header content */
 header h1 {
@@ -38,6 +39,7 @@ nav {
 
 nav ul {
     text-align: center;
+    list-style:none;
 }
 
 nav li {
@@ -48,7 +50,7 @@ nav li {
 }
 
 nav li a {
-    display: block;
+    display: inline-block;
     color: #1b3409;
     text-decoration: none;
 }
